@@ -1,0 +1,3 @@
+def obter_kmers(sequencia, k):
+    kmers = [sequencia[i:i+k] for i in range(len(sequencia) - k + 1)]
+    return kmers
